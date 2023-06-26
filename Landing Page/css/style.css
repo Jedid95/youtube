@@ -1,0 +1,86 @@
+/*** Gerais ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Opens Sans';
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+/*** Gerais end ***/
+
+/*** HEADER ***/
+
+header{
+    width: 100%;
+    height: 90vh;
+    min-height: 800px;
+    padding: 40px 2%;
+    background-image: url('../images/capa.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo{
+    width: 160px;
+    height: 40px;
+    float: left;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    float: right;
+}
+/*** HEADER END ***/
+
+/** DESKTOP-MENU ***/
+header nav.desktop-menu ul{
+    list-style-type: none;
+}
+
+header nav.desktop-menu li{
+    float: left;
+    padding: 0 20px;
+}
+
+header nav.desktop-menu a{
+    text-decoration: none;
+    color: white; 
+}
+
+/** DESKTOP-MENU END***/
+
+/** Chamada 1 **/
+.chamada-1{
+    float: left;
+    margin: 180px 110px;
+    max-width: 500px;
+}
+
+.chamada-1 h2{
+    font-weight: 300;
+    font-size: 35px;
+    color: white;
+}
+
+.chamada-1 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+/** Chamada 1 end **/
