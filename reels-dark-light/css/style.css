@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    padding: 10% 3% 10% 3%;
+    text-align: center;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+}
+
+h1{
+    color: #0a2cec;
+}
+
+.change{
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
