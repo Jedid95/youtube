@@ -1,0 +1,13 @@
+button {
+    color: white;
+    background: red;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.7);
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+  
+button:hover, button:focus {
+    background: blue;
+    transform: translateX(10px) scale(2);
+  }
